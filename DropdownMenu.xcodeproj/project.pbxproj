@@ -11,6 +11,10 @@
 		303AD1DF2935474300B93C01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AD1DE2935474300B93C01 /* ContentView.swift */; };
 		303AD1E12935474400B93C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AD1E02935474400B93C01 /* Assets.xcassets */; };
 		303AD1E42935474400B93C01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AD1E32935474400B93C01 /* Preview Assets.xcassets */; };
+		303AD1EC2935476A00B93C01 /* DropdownMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AD1EB2935476A00B93C01 /* DropdownMenuOption.swift */; };
+		303AD1EE29354D4C00B93C01 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AD1ED29354D4C00B93C01 /* DropdownMenu.swift */; };
+		303AD1F029354F1C00B93C01 /* DropdownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AD1EF29354F1C00B93C01 /* DropdownMenuList.swift */; };
+		303AD1F229354F9800B93C01 /* DropdownMenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AD1F129354F9700B93C01 /* DropdownMenuListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		303AD1DE2935474300B93C01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		303AD1E02935474400B93C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303AD1E32935474400B93C01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		303AD1EB2935476A00B93C01 /* DropdownMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuOption.swift; sourceTree = "<group>"; };
+		303AD1ED29354D4C00B93C01 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
+		303AD1EF29354F1C00B93C01 /* DropdownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuList.swift; sourceTree = "<group>"; };
+		303AD1F129354F9700B93C01 /* DropdownMenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		303AD1DB2935474300B93C01 /* DropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				303AD1EA2935475200B93C01 /* DropdownMenu */,
 				303AD1DC2935474300B93C01 /* DropdownMenuApp.swift */,
 				303AD1DE2935474300B93C01 /* ContentView.swift */,
 				303AD1E02935474400B93C01 /* Assets.xcassets */,
@@ -65,6 +74,17 @@
 				303AD1E32935474400B93C01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		303AD1EA2935475200B93C01 /* DropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				303AD1EB2935476A00B93C01 /* DropdownMenuOption.swift */,
+				303AD1ED29354D4C00B93C01 /* DropdownMenu.swift */,
+				303AD1EF29354F1C00B93C01 /* DropdownMenuList.swift */,
+				303AD1F129354F9700B93C01 /* DropdownMenuListRow.swift */,
+			);
+			path = DropdownMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AD1F229354F9800B93C01 /* DropdownMenuListRow.swift in Sources */,
+				303AD1EC2935476A00B93C01 /* DropdownMenuOption.swift in Sources */,
+				303AD1F029354F1C00B93C01 /* DropdownMenuList.swift in Sources */,
 				303AD1DF2935474300B93C01 /* ContentView.swift in Sources */,
 				303AD1DD2935474300B93C01 /* DropdownMenuApp.swift in Sources */,
+				303AD1EE29354D4C00B93C01 /* DropdownMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

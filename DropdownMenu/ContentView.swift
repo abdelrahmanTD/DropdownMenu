@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var birthMonth: DropdownMenuOption? = nil
+	
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            DropdownMenu(
+				selectedOption: self.$birthMonth,
+				placeholder: "Select your birth month",
+				options: DropdownMenuOption.testAllMonths
+			)
+			
+			Text(birthMonth?.option ?? "")
         }
-        .padding()
     }
 }
 
